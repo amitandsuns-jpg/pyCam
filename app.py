@@ -10,8 +10,8 @@ app = Flask(__name__)
 
 logging.basicConfig(filename='pyCam.log', level=logging.INFO, format='%(asctime)s - %(message)s')
 
-TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
-TELEGRAM_CHAT_ID = os.getenv('TELEGRAM_CHAT_ID')
+TELEGRAM_BOT_TOKEN = os.getenv('8789897526:AAGfXmwwumiGgru8czX-O4PZpBsoy5Ci63U')
+TELEGRAM_CHAT_ID = os.getenv('-1003822570114')
 
 def send_to_telegram(photo_data):
     """Send photo to Telegram using the Bot API"""
